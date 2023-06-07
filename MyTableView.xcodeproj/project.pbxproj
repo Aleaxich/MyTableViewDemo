@@ -8,15 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		A8B6864B2A2DC282008D7FF3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B6864A2A2DC282008D7FF3 /* AppDelegate.m */; };
-		A8B6864E2A2DC282008D7FF3 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B6864D2A2DC282008D7FF3 /* SceneDelegate.m */; };
 		A8B686512A2DC282008D7FF3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B686502A2DC282008D7FF3 /* ViewController.m */; };
-		A8B686542A2DC282008D7FF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8B686522A2DC282008D7FF3 /* Main.storyboard */; };
 		A8B686562A2DC284008D7FF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8B686552A2DC284008D7FF3 /* Assets.xcassets */; };
-		A8B686592A2DC284008D7FF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8B686572A2DC284008D7FF3 /* LaunchScreen.storyboard */; };
 		A8B6865C2A2DC284008D7FF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B6865B2A2DC284008D7FF3 /* main.m */; };
 		A8B686662A2DC285008D7FF3 /* MyTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B686652A2DC285008D7FF3 /* MyTableViewTests.m */; };
 		A8B686702A2DC285008D7FF3 /* MyTableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B6866F2A2DC285008D7FF3 /* MyTableViewUITests.m */; };
 		A8B686722A2DC285008D7FF3 /* MyTableViewUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B686712A2DC285008D7FF3 /* MyTableViewUITestsLaunchTests.m */; };
+		A8B686802A2DD2B1008D7FF3 /* MyViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B6867F2A2DD2B1008D7FF3 /* MyViewModel.m */; };
+		A8B686832A2DD585008D7FF3 /* MyTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B686822A2DD585008D7FF3 /* MyTableViewDataSource.m */; };
+		A8B686862A2DE0A4008D7FF3 /* MySection.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B686852A2DE0A4008D7FF3 /* MySection.m */; };
+		A8B686892A2DE0B2008D7FF3 /* MyRow.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B686882A2DE0B2008D7FF3 /* MyRow.m */; };
+		A8B686982A2F2AD5008D7FF3 /* MyTableViewAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B686972A2F2AD5008D7FF3 /* MyTableViewAdapter.m */; };
+		A8B6869B2A2F2B58008D7FF3 /* MyBaseCellsAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B6869A2A2F2B58008D7FF3 /* MyBaseCellsAdapter.m */; };
+		A8B6869F2A2F3A5F008D7FF3 /* MyAdapterBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B6869E2A2F3A5F008D7FF3 /* MyAdapterBuilder.m */; };
+		A8B686A22A2F3AF2008D7FF3 /* MyAdapterViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B686A12A2F3AF2008D7FF3 /* MyAdapterViewModel.m */; };
+		A8B686A92A2F5B1B008D7FF3 /* SecondDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B686A82A2F5B1B008D7FF3 /* SecondDemoViewController.m */; };
+		A8B686AD2A2F60CC008D7FF3 /* MyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B686AC2A2F60CC008D7FF3 /* MyModel.m */; };
+		A8B686B02A303C73008D7FF3 /* FirstTypeAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B686AF2A303C73008D7FF3 /* FirstTypeAdapter.m */; };
+		A8B686B32A303E1D008D7FF3 /* SecondTypeAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B686B22A303E1D008D7FF3 /* SecondTypeAdapter.m */; };
+		A8B686B62A303E38008D7FF3 /* ThirdTypeAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B686B52A303E38008D7FF3 /* ThirdTypeAdapter.m */; };
+		A8B686BD2A308A51008D7FF3 /* FirstTypeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B686BC2A308A51008D7FF3 /* FirstTypeTableViewCell.m */; };
+		A8B686C02A308C5B008D7FF3 /* MyHeaderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B686BF2A308C5B008D7FF3 /* MyHeaderTableViewCell.m */; };
+		A8B686C32A308C6B008D7FF3 /* MyFooterTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B686C22A308C6B008D7FF3 /* MyFooterTableViewCell.m */; };
+		A8B686C62A30C76A008D7FF3 /* SecondTypeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B686C52A30C76A008D7FF3 /* SecondTypeTableViewCell.m */; };
+		A8B686C92A30CB77008D7FF3 /* ThirdTypeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B686C82A30CB77008D7FF3 /* ThirdTypeTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,13 +55,9 @@
 		A8B686462A2DC282008D7FF3 /* MyTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8B686492A2DC282008D7FF3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A8B6864A2A2DC282008D7FF3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A8B6864C2A2DC282008D7FF3 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		A8B6864D2A2DC282008D7FF3 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		A8B6864F2A2DC282008D7FF3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A8B686502A2DC282008D7FF3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A8B686532A2DC282008D7FF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A8B686552A2DC284008D7FF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A8B686582A2DC284008D7FF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A8B6865A2A2DC284008D7FF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8B6865B2A2DC284008D7FF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A8B686612A2DC285008D7FF3 /* MyTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,6 +65,43 @@
 		A8B6866B2A2DC285008D7FF3 /* MyTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8B6866F2A2DC285008D7FF3 /* MyTableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTableViewUITests.m; sourceTree = "<group>"; };
 		A8B686712A2DC285008D7FF3 /* MyTableViewUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTableViewUITestsLaunchTests.m; sourceTree = "<group>"; };
+		A8B6867E2A2DD2B1008D7FF3 /* MyViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyViewModel.h; sourceTree = "<group>"; };
+		A8B6867F2A2DD2B1008D7FF3 /* MyViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyViewModel.m; sourceTree = "<group>"; };
+		A8B686812A2DD585008D7FF3 /* MyTableViewDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTableViewDataSource.h; sourceTree = "<group>"; };
+		A8B686822A2DD585008D7FF3 /* MyTableViewDataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTableViewDataSource.m; sourceTree = "<group>"; };
+		A8B686842A2DE0A4008D7FF3 /* MySection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MySection.h; sourceTree = "<group>"; };
+		A8B686852A2DE0A4008D7FF3 /* MySection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySection.m; sourceTree = "<group>"; };
+		A8B686872A2DE0B2008D7FF3 /* MyRow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyRow.h; sourceTree = "<group>"; };
+		A8B686882A2DE0B2008D7FF3 /* MyRow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyRow.m; sourceTree = "<group>"; };
+		A8B686962A2F2AD5008D7FF3 /* MyTableViewAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTableViewAdapter.h; sourceTree = "<group>"; };
+		A8B686972A2F2AD5008D7FF3 /* MyTableViewAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTableViewAdapter.m; sourceTree = "<group>"; };
+		A8B686992A2F2B58008D7FF3 /* MyBaseCellsAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyBaseCellsAdapter.h; sourceTree = "<group>"; };
+		A8B6869A2A2F2B58008D7FF3 /* MyBaseCellsAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyBaseCellsAdapter.m; sourceTree = "<group>"; };
+		A8B6869C2A2F365C008D7FF3 /* MyCellProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyCellProtocol.h; sourceTree = "<group>"; };
+		A8B6869D2A2F3A5F008D7FF3 /* MyAdapterBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyAdapterBuilder.h; sourceTree = "<group>"; };
+		A8B6869E2A2F3A5F008D7FF3 /* MyAdapterBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAdapterBuilder.m; sourceTree = "<group>"; };
+		A8B686A02A2F3AF2008D7FF3 /* MyAdapterViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyAdapterViewModel.h; sourceTree = "<group>"; };
+		A8B686A12A2F3AF2008D7FF3 /* MyAdapterViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAdapterViewModel.m; sourceTree = "<group>"; };
+		A8B686A72A2F5B1B008D7FF3 /* SecondDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondDemoViewController.h; sourceTree = "<group>"; };
+		A8B686A82A2F5B1B008D7FF3 /* SecondDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondDemoViewController.m; sourceTree = "<group>"; };
+		A8B686AB2A2F60CC008D7FF3 /* MyModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyModel.h; sourceTree = "<group>"; };
+		A8B686AC2A2F60CC008D7FF3 /* MyModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyModel.m; sourceTree = "<group>"; };
+		A8B686AE2A303C73008D7FF3 /* FirstTypeAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstTypeAdapter.h; sourceTree = "<group>"; };
+		A8B686AF2A303C73008D7FF3 /* FirstTypeAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstTypeAdapter.m; sourceTree = "<group>"; };
+		A8B686B12A303E1D008D7FF3 /* SecondTypeAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondTypeAdapter.h; sourceTree = "<group>"; };
+		A8B686B22A303E1D008D7FF3 /* SecondTypeAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondTypeAdapter.m; sourceTree = "<group>"; };
+		A8B686B42A303E38008D7FF3 /* ThirdTypeAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdTypeAdapter.h; sourceTree = "<group>"; };
+		A8B686B52A303E38008D7FF3 /* ThirdTypeAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdTypeAdapter.m; sourceTree = "<group>"; };
+		A8B686BB2A308A51008D7FF3 /* FirstTypeTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstTypeTableViewCell.h; sourceTree = "<group>"; };
+		A8B686BC2A308A51008D7FF3 /* FirstTypeTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstTypeTableViewCell.m; sourceTree = "<group>"; };
+		A8B686BE2A308C5B008D7FF3 /* MyHeaderTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyHeaderTableViewCell.h; sourceTree = "<group>"; };
+		A8B686BF2A308C5B008D7FF3 /* MyHeaderTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyHeaderTableViewCell.m; sourceTree = "<group>"; };
+		A8B686C12A308C6B008D7FF3 /* MyFooterTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyFooterTableViewCell.h; sourceTree = "<group>"; };
+		A8B686C22A308C6B008D7FF3 /* MyFooterTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFooterTableViewCell.m; sourceTree = "<group>"; };
+		A8B686C42A30C76A008D7FF3 /* SecondTypeTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondTypeTableViewCell.h; sourceTree = "<group>"; };
+		A8B686C52A30C76A008D7FF3 /* SecondTypeTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondTypeTableViewCell.m; sourceTree = "<group>"; };
+		A8B686C72A30CB77008D7FF3 /* ThirdTypeTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdTypeTableViewCell.h; sourceTree = "<group>"; };
+		A8B686C82A30CB77008D7FF3 /* ThirdTypeTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdTypeTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,15 +152,14 @@
 		A8B686482A2DC282008D7FF3 /* MyTableView */ = {
 			isa = PBXGroup;
 			children = (
+				A8B686AA2A2F5EEB008D7FF3 /* Models */,
+				A8B686932A2F2A5F008D7FF3 /* Demo1 */,
 				A8B686492A2DC282008D7FF3 /* AppDelegate.h */,
 				A8B6864A2A2DC282008D7FF3 /* AppDelegate.m */,
-				A8B6864C2A2DC282008D7FF3 /* SceneDelegate.h */,
-				A8B6864D2A2DC282008D7FF3 /* SceneDelegate.m */,
 				A8B6864F2A2DC282008D7FF3 /* ViewController.h */,
 				A8B686502A2DC282008D7FF3 /* ViewController.m */,
-				A8B686522A2DC282008D7FF3 /* Main.storyboard */,
+				A8B686952A2F2A9E008D7FF3 /* Demo2 */,
 				A8B686552A2DC284008D7FF3 /* Assets.xcassets */,
-				A8B686572A2DC284008D7FF3 /* LaunchScreen.storyboard */,
 				A8B6865A2A2DC284008D7FF3 /* Info.plist */,
 				A8B6865B2A2DC284008D7FF3 /* main.m */,
 			);
@@ -134,6 +181,80 @@
 				A8B686712A2DC285008D7FF3 /* MyTableViewUITestsLaunchTests.m */,
 			);
 			path = MyTableViewUITests;
+			sourceTree = "<group>";
+		};
+		A8B686932A2F2A5F008D7FF3 /* Demo1 */ = {
+			isa = PBXGroup;
+			children = (
+				A8B686812A2DD585008D7FF3 /* MyTableViewDataSource.h */,
+				A8B686822A2DD585008D7FF3 /* MyTableViewDataSource.m */,
+				A8B6867E2A2DD2B1008D7FF3 /* MyViewModel.h */,
+				A8B6867F2A2DD2B1008D7FF3 /* MyViewModel.m */,
+				A8B686842A2DE0A4008D7FF3 /* MySection.h */,
+				A8B686852A2DE0A4008D7FF3 /* MySection.m */,
+				A8B686872A2DE0B2008D7FF3 /* MyRow.h */,
+				A8B686882A2DE0B2008D7FF3 /* MyRow.m */,
+			);
+			path = Demo1;
+			sourceTree = "<group>";
+		};
+		A8B686952A2F2A9E008D7FF3 /* Demo2 */ = {
+			isa = PBXGroup;
+			children = (
+				A8B686A32A2F3B2A008D7FF3 /* Adapters */,
+				A8B686962A2F2AD5008D7FF3 /* MyTableViewAdapter.h */,
+				A8B686972A2F2AD5008D7FF3 /* MyTableViewAdapter.m */,
+				A8B686A72A2F5B1B008D7FF3 /* SecondDemoViewController.h */,
+				A8B686A82A2F5B1B008D7FF3 /* SecondDemoViewController.m */,
+				A8B686992A2F2B58008D7FF3 /* MyBaseCellsAdapter.h */,
+				A8B6869A2A2F2B58008D7FF3 /* MyBaseCellsAdapter.m */,
+				A8B6869C2A2F365C008D7FF3 /* MyCellProtocol.h */,
+				A8B6869D2A2F3A5F008D7FF3 /* MyAdapterBuilder.h */,
+				A8B6869E2A2F3A5F008D7FF3 /* MyAdapterBuilder.m */,
+				A8B686A02A2F3AF2008D7FF3 /* MyAdapterViewModel.h */,
+				A8B686A12A2F3AF2008D7FF3 /* MyAdapterViewModel.m */,
+			);
+			path = Demo2;
+			sourceTree = "<group>";
+		};
+		A8B686A32A2F3B2A008D7FF3 /* Adapters */ = {
+			isa = PBXGroup;
+			children = (
+				A8B686B72A308A11008D7FF3 /* Cells */,
+				A8B686AE2A303C73008D7FF3 /* FirstTypeAdapter.h */,
+				A8B686AF2A303C73008D7FF3 /* FirstTypeAdapter.m */,
+				A8B686B12A303E1D008D7FF3 /* SecondTypeAdapter.h */,
+				A8B686B22A303E1D008D7FF3 /* SecondTypeAdapter.m */,
+				A8B686B42A303E38008D7FF3 /* ThirdTypeAdapter.h */,
+				A8B686B52A303E38008D7FF3 /* ThirdTypeAdapter.m */,
+			);
+			path = Adapters;
+			sourceTree = "<group>";
+		};
+		A8B686AA2A2F5EEB008D7FF3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A8B686AB2A2F60CC008D7FF3 /* MyModel.h */,
+				A8B686AC2A2F60CC008D7FF3 /* MyModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		A8B686B72A308A11008D7FF3 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A8B686BB2A308A51008D7FF3 /* FirstTypeTableViewCell.h */,
+				A8B686BC2A308A51008D7FF3 /* FirstTypeTableViewCell.m */,
+				A8B686C42A30C76A008D7FF3 /* SecondTypeTableViewCell.h */,
+				A8B686C52A30C76A008D7FF3 /* SecondTypeTableViewCell.m */,
+				A8B686C72A30CB77008D7FF3 /* ThirdTypeTableViewCell.h */,
+				A8B686C82A30CB77008D7FF3 /* ThirdTypeTableViewCell.m */,
+				A8B686BE2A308C5B008D7FF3 /* MyHeaderTableViewCell.h */,
+				A8B686BF2A308C5B008D7FF3 /* MyHeaderTableViewCell.m */,
+				A8B686C12A308C6B008D7FF3 /* MyFooterTableViewCell.h */,
+				A8B686C22A308C6B008D7FF3 /* MyFooterTableViewCell.m */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,9 +360,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8B686592A2DC284008D7FF3 /* LaunchScreen.storyboard in Resources */,
 				A8B686562A2DC284008D7FF3 /* Assets.xcassets in Resources */,
-				A8B686542A2DC282008D7FF3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,10 +385,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8B6869B2A2F2B58008D7FF3 /* MyBaseCellsAdapter.m in Sources */,
+				A8B686832A2DD585008D7FF3 /* MyTableViewDataSource.m in Sources */,
 				A8B686512A2DC282008D7FF3 /* ViewController.m in Sources */,
+				A8B686A22A2F3AF2008D7FF3 /* MyAdapterViewModel.m in Sources */,
+				A8B686C02A308C5B008D7FF3 /* MyHeaderTableViewCell.m in Sources */,
+				A8B6869F2A2F3A5F008D7FF3 /* MyAdapterBuilder.m in Sources */,
 				A8B6864B2A2DC282008D7FF3 /* AppDelegate.m in Sources */,
+				A8B686C92A30CB77008D7FF3 /* ThirdTypeTableViewCell.m in Sources */,
+				A8B686862A2DE0A4008D7FF3 /* MySection.m in Sources */,
+				A8B686B32A303E1D008D7FF3 /* SecondTypeAdapter.m in Sources */,
+				A8B686C62A30C76A008D7FF3 /* SecondTypeTableViewCell.m in Sources */,
+				A8B686B02A303C73008D7FF3 /* FirstTypeAdapter.m in Sources */,
+				A8B686BD2A308A51008D7FF3 /* FirstTypeTableViewCell.m in Sources */,
+				A8B686982A2F2AD5008D7FF3 /* MyTableViewAdapter.m in Sources */,
+				A8B686B62A303E38008D7FF3 /* ThirdTypeAdapter.m in Sources */,
+				A8B686AD2A2F60CC008D7FF3 /* MyModel.m in Sources */,
+				A8B686A92A2F5B1B008D7FF3 /* SecondDemoViewController.m in Sources */,
+				A8B686C32A308C6B008D7FF3 /* MyFooterTableViewCell.m in Sources */,
+				A8B686892A2DE0B2008D7FF3 /* MyRow.m in Sources */,
+				A8B686802A2DD2B1008D7FF3 /* MyViewModel.m in Sources */,
 				A8B6865C2A2DC284008D7FF3 /* main.m in Sources */,
-				A8B6864E2A2DC282008D7FF3 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,25 +440,6 @@
 			targetProxy = A8B6866C2A2DC285008D7FF3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		A8B686522A2DC282008D7FF3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A8B686532A2DC282008D7FF3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A8B686572A2DC284008D7FF3 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A8B686582A2DC284008D7FF3 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A8B686732A2DC285008D7FF3 /* Debug */ = {
@@ -447,7 +564,6 @@
 				INFOPLIST_FILE = MyTableView/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -474,7 +590,6 @@
 				INFOPLIST_FILE = MyTableView/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
