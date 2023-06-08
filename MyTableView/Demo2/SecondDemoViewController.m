@@ -27,14 +27,24 @@
 
     // 模拟请求网络数据
     [self.viewModel featchData];
-    self.tableViewAdapter.adapterList = self.viewModel.adapters;
-    [self.tableViewAdapter loadData:self.viewModel.datas];
+    [self.tableViewAdapter loadData:self.viewModel.datas withAdapters:self.viewModel.adapters];
     
 }
 
 - (void)setupSubview {
     [self.view addSubview:self.tableView];
     self.tableViewAdapter = [[MyTableViewAdapter alloc] initWithTableView:self.tableView];
+    __weak typeof (self) wSelf = self;
+    self.tableViewAdapter.deleteIndex = ^(NSInteger index) {
+        __strong typeof (wSelf) sSelf = wSelf;
+        [sSelf.viewModel deleteAdapterAtIndex:index];
+        [sSelf.tableViewAdapter loadData:sSelf.viewModel.datas withAdapters:sSelf.viewModel.adapters];
+    };
+    self.tableViewAdapter.reload = ^{
+        __strong typeof (wSelf) sSelf = wSelf;
+        [sSelf.viewModel reload];
+        [sSelf.tableViewAdapter loadData:sSelf.viewModel.datas withAdapters:sSelf.viewModel.adapters];
+    };
     self.tableView.delegate = self.tableViewAdapter;
     self.tableView.dataSource = self.tableViewAdapter;
 }

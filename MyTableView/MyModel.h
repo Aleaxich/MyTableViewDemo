@@ -13,6 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic,copy) NSString *type;
 
+@property (nonatomic,copy) NSString *style;
 
 @end
 

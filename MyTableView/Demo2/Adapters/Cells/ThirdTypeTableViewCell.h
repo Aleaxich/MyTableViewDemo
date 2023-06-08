@@ -6,12 +6,12 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "MyCellProtocol.h"
+#import "MyBaseTableViewCell.h"
 
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ThirdTypeTableViewCell : UITableViewCell<MyCellProtocol>
+@interface ThirdTypeTableViewCell : MyBaseTableViewCell
 
 @end
 

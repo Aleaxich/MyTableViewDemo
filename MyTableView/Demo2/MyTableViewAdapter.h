@@ -16,11 +16,15 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface MyTableViewAdapter : NSObject<UITableViewDelegate,UITableViewDataSource>
 
-@property (nonatomic, copy) NSArray<MyBaseCellsAdapter *> *adapterList;
+@property (nonatomic,copy) NSArray<MyBaseCellsAdapter *> *adapterList;
+
+@property (nonatomic,copy) void(^deleteIndex)(NSInteger index);
+
+@property (nonatomic,copy) void(^reload)(void);
 
 - (instancetype)initWithTableView:(UITableView *)tableView;
 
-- (void)loadData:(NSArray<MyModel *> *)models;
+- (void)loadData:(NSArray<MyModel *> *)models withAdapters:(NSArray<MyBaseCellsAdapter *> *)adapters;
 
 
 @end

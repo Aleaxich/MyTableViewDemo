@@ -18,13 +18,6 @@
 
 @implementation ThirdTypeTableViewCell
 
-- (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
-    if (self = [super initWithStyle: style reuseIdentifier:reuseIdentifier]) {
-        [self buildSubviews];
-    }
-    return self;
-}
-
 - (void)buildSubviews {
     _label = [[UILabel alloc] initWithFrame:CGRectMake(230, 5, 200, 30)];
     [_label setFont:[UIFont boldSystemFontOfSize:25]];
@@ -46,6 +39,7 @@
 }
 
 - (void)loadData:(TypeThreeModel *)model {
+    [super loadData:model];
     self.label.text = model.title;
     self.imageView.image = [UIImage imageNamed:model.imageName];
 }
@@ -53,7 +47,5 @@
 - (CGFloat)cellHeight {
     return 50;
 }
-
-
 
 @end

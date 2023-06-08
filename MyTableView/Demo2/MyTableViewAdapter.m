@@ -25,7 +25,8 @@
     return self;
 }
 
-- (void)loadData:(NSArray<MyModel *> *)models {
+- (void)loadData:(NSArray<MyModel *> *)models withAdapters:(NSArray<MyBaseCellsAdapter *> *)adapters {
+    self.adapterList = adapters;
     self.datas = models;
     [self.tableView reloadData];
 }
@@ -96,9 +97,23 @@
         }
         
         if ( [myCell respondsToSelector:@selector(setRefreshAction:)]) {
-            __weak typeof (tableView) weakTableView = tableView;
+            __weak typeof (self) wSelf = self;
             myCell.refreshAction = ^{
+                __strong typeof (wSelf) sSelf = wSelf;
+                if (sSelf.reload) {
+                    self.reload();
+                }
+                [sSelf.tableView reloadData];
+            };
+        }
+        
+        if ([myCell respondsToSelector:@selector(setDeleteAction:)]) {
+            __weak typeof (tableView) weakTableView = tableView;
+            myCell.deleteAction = ^{
                 __strong typeof (weakTableView) tableView = weakTableView;
+                if (self.deleteIndex) {
+                    self.deleteIndex(indexPath.section);
+                }
                 [tableView reloadData];
             };
         }

@@ -7,11 +7,13 @@
 
 #import <UIKit/UIKit.h>
 #import "MyCellProtocol.h"
+#import "MyBaseTableViewCell.h"
+
 
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface MyFooterTableViewCell : UITableViewCell<MyCellProtocol>
+@interface MyFooterTableViewCell : MyBaseTableViewCell
 
 @end
 

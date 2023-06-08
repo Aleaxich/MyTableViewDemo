@@ -21,6 +21,8 @@
 
 @property(nonatomic,copy) void(^refreshAction)(void);
 
+@property(nonatomic,copy) void(^deleteAction)(void);
+
 /// 加载数据
 -(void)loadData:(MyModel *)model;
 

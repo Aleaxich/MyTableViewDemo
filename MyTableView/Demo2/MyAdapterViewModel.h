@@ -19,9 +19,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic,copy) NSArray <MyBaseCellsAdapter *> *adapters;
 
-- (void)setAssociatedTableView:(UITableView *)tableview;
+- (void)featchData;
 
--(void)featchData;
+- (void)deleteAdapterAtIndex:(NSInteger) index;
+
+- (void)reload;
 
 @end
 

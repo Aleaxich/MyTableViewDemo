@@ -32,6 +32,7 @@
 		A8B686C32A308C6B008D7FF3 /* MyFooterTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B686C22A308C6B008D7FF3 /* MyFooterTableViewCell.m */; };
 		A8B686C62A30C76A008D7FF3 /* SecondTypeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B686C52A30C76A008D7FF3 /* SecondTypeTableViewCell.m */; };
 		A8B686C92A30CB77008D7FF3 /* ThirdTypeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B686C82A30CB77008D7FF3 /* ThirdTypeTableViewCell.m */; };
+		A8B686CC2A31E3A1008D7FF3 /* MyBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B686CB2A31E3A1008D7FF3 /* MyBaseTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +103,8 @@
 		A8B686C52A30C76A008D7FF3 /* SecondTypeTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondTypeTableViewCell.m; sourceTree = "<group>"; };
 		A8B686C72A30CB77008D7FF3 /* ThirdTypeTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdTypeTableViewCell.h; sourceTree = "<group>"; };
 		A8B686C82A30CB77008D7FF3 /* ThirdTypeTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdTypeTableViewCell.m; sourceTree = "<group>"; };
+		A8B686CA2A31E3A1008D7FF3 /* MyBaseTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyBaseTableViewCell.h; sourceTree = "<group>"; };
+		A8B686CB2A31E3A1008D7FF3 /* MyBaseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyBaseTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -253,6 +256,8 @@
 				A8B686BF2A308C5B008D7FF3 /* MyHeaderTableViewCell.m */,
 				A8B686C12A308C6B008D7FF3 /* MyFooterTableViewCell.h */,
 				A8B686C22A308C6B008D7FF3 /* MyFooterTableViewCell.m */,
+				A8B686CA2A31E3A1008D7FF3 /* MyBaseTableViewCell.h */,
+				A8B686CB2A31E3A1008D7FF3 /* MyBaseTableViewCell.m */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -385,6 +390,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8B686CC2A31E3A1008D7FF3 /* MyBaseTableViewCell.m in Sources */,
 				A8B6869B2A2F2B58008D7FF3 /* MyBaseCellsAdapter.m in Sources */,
 				A8B686832A2DD585008D7FF3 /* MyTableViewDataSource.m in Sources */,
 				A8B686512A2DC282008D7FF3 /* ViewController.m in Sources */,
