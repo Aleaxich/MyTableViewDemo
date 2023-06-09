@@ -46,7 +46,10 @@
 
 - (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section {
     MyBaseCellsAdapter *adapter = self.adapterList[section];
-    return adapter.footerHeight;
+    if ([adapter respondsToSelector:@selector(footerHeight)]) {
+       return [adapter footerHeight];
+    }
+    return 0;
 }
 
 - (UIView *)tableView:(UITableView *)tableView viewForFooterInSection:(NSInteger)section {

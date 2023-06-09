@@ -16,7 +16,11 @@
     return self;
 }
 
+- (CGFloat)footerHeight {
+    return 5;
+}
 
+// 子类实现
 - (void)buildCells {
     
 }

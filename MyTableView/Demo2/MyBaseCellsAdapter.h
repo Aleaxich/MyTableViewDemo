@@ -18,7 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic,copy) NSArray<id<MyCellProtocol>> *cells;
 
-@property (nonatomic, assign) CGFloat footerHeight;
+-(CGFloat)footerHeight;
 
 - (void)buildCells;
 

@@ -13,7 +13,6 @@
 @implementation FirstTypeAdapter
 
 - (void)buildCells {
-    self.footerHeight = 5;
     NSMutableArray *array = @[].mutableCopy;
     MyHeaderTableViewCell *header = [[MyHeaderTableViewCell alloc] init];
     [array addObject:header];
