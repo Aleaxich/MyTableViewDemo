@@ -38,6 +38,7 @@
     self.tableViewAdapter.deleteIndex = ^(NSInteger index) {
         __strong typeof (wSelf) sSelf = wSelf;
         [sSelf.viewModel deleteAdapterAtIndex:index];
+        /// TODO: 优化
         [sSelf.tableViewAdapter loadData:sSelf.viewModel.datas withAdapters:sSelf.viewModel.adapters];
     };
     self.tableViewAdapter.reload = ^{

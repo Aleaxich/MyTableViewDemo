@@ -7,6 +7,16 @@
 
 #import "MySection.h"
 
+@interface MySection()
+
+@property (nonatomic,strong) MyModel *model;
+
+@end
+
 @implementation MySection
+
+- (void)loadData:(MyModel *)model {
+    self.model = model;
+}
 
 @end

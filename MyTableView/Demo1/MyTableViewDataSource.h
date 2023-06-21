@@ -6,6 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "MySection.h"
 @import UIKit;
 
 NS_ASSUME_NONNULL_BEGIN
@@ -16,9 +17,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,weak) UITableView *tableview;
 
 /// 数据
-@property (nonatomic,strong) NSArray<id> *sections;
+@property (nonatomic,strong) NSMutableArray<MySection *> *sections;
 
--(instancetype)initWithTableView:(UITableView *)tableView;
+-(instancetype)initWithTableView:(UITableView *)tableView andDatas:(NSArray<MyModel *> *)datas;
 
 @end
 

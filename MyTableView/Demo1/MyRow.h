@@ -6,15 +6,21 @@
 //
 
 #import <Foundation/Foundation.h>
+@import UIKit;
 
 NS_ASSUME_NONNULL_BEGIN
 
 typedef void(^clickAction)(void);
+typedef UITableViewCell *_Nonnull(^createCell)(void);
 
 @interface MyRow : NSObject
 
 /// 点击
-@property (nonatomic, copy) clickAction action;
+@property (nonatomic, copy) clickAction clickAction;
+
+@property (nonatomic, copy) createCell createCell;
+
+@property (nonatomic, assign) CGFloat rowHeight;
 
 @end
 

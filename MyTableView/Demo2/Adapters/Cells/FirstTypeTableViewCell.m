@@ -8,7 +8,7 @@
 #import "FirstTypeTableViewCell.h"
 #import "MyModel.h"
 
-@interface FirstTypeCell ()
+@interface FirstTypeTableViewCell ()
 
 @property (nonatomic,strong) UILabel *label;
 
@@ -16,7 +16,7 @@
 
 @end
 
-@implementation FirstTypeCell
+@implementation FirstTypeTableViewCell
 
 
 - (void)buildSubviews {
@@ -43,7 +43,9 @@
 
 - (void)refreshTableView {
     NSLog(@"刷新列表");
-    self.refreshAction();
+    if (self.refreshAction) {
+        self.refreshAction();
+    }
 }
 
 - (void)loadData:(TypeOneModel *)model {
