@@ -23,5 +23,13 @@
 
 @end
 
+@implementation TypeFourModel
+
+@end
+
+@implementation DeviceDataModel
+
+@end
+
 
 

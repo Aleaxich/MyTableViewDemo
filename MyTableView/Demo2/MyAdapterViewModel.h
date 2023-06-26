@@ -10,6 +10,13 @@
 @class MyBaseCellsAdapter;
 @class MyModel;
 
+/// 不同数据来源
+typedef NS_ENUM(NSInteger,SourceType) {
+    SourceTypeOffLine,
+    SourceTypeDataCenter,
+    SourceTypeFinishPage
+};
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface MyAdapterViewModel : NSObject
@@ -18,6 +25,12 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,copy) NSArray<MyModel *> *datas;
 
 @property (nonatomic,copy) NSArray <MyBaseCellsAdapter *> *adapters;
+
+@property (nonatomic,copy) void(^uploadSuccess)(void);
+
+- (instancetype)initWithType:(SourceType)type;
+
+- (void)featchDeviceData;
 
 - (void)featchData;
 

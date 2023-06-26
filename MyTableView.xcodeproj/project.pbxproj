@@ -39,6 +39,9 @@
 		A8B686C92A30CB77008D7FF3 /* ThirdTypeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B686C82A30CB77008D7FF3 /* ThirdTypeTableViewCell.m */; };
 		A8B686CC2A31E3A1008D7FF3 /* MyBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B686CB2A31E3A1008D7FF3 /* MyBaseTableViewCell.m */; };
 		A8E78E2F2A4195FE00E57933 /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E78E2E2A4195FE00E57933 /* HeaderView.m */; };
+		A8E78E322A4988BF00E57933 /* TrainingDataTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E78E312A4988BF00E57933 /* TrainingDataTableViewCell.m */; };
+		A8E78E352A49967C00E57933 /* TrainingDataAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E78E342A49967C00E57933 /* TrainingDataAdapter.m */; };
+		A8E78E382A49BE8600E57933 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E78E372A49BE8600E57933 /* MyViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -123,6 +126,12 @@
 		A8B686CB2A31E3A1008D7FF3 /* MyBaseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyBaseTableViewCell.m; sourceTree = "<group>"; };
 		A8E78E2D2A4195FE00E57933 /* HeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeaderView.h; sourceTree = "<group>"; };
 		A8E78E2E2A4195FE00E57933 /* HeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeaderView.m; sourceTree = "<group>"; };
+		A8E78E302A4988BF00E57933 /* TrainingDataTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrainingDataTableViewCell.h; sourceTree = "<group>"; };
+		A8E78E312A4988BF00E57933 /* TrainingDataTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrainingDataTableViewCell.m; sourceTree = "<group>"; };
+		A8E78E332A49967C00E57933 /* TrainingDataAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrainingDataAdapter.h; sourceTree = "<group>"; };
+		A8E78E342A49967C00E57933 /* TrainingDataAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrainingDataAdapter.m; sourceTree = "<group>"; };
+		A8E78E362A49BE8600E57933 /* MyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		A8E78E372A49BE8600E57933 /* MyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -254,6 +263,8 @@
 				A8B6869E2A2F3A5F008D7FF3 /* MyAdapterBuilder.m */,
 				A8B686A02A2F3AF2008D7FF3 /* MyAdapterViewModel.h */,
 				A8B686A12A2F3AF2008D7FF3 /* MyAdapterViewModel.m */,
+				A8E78E362A49BE8600E57933 /* MyViewController.h */,
+				A8E78E372A49BE8600E57933 /* MyViewController.m */,
 			);
 			path = Demo2;
 			sourceTree = "<group>";
@@ -268,6 +279,8 @@
 				A8B686B22A303E1D008D7FF3 /* SecondTypeAdapter.m */,
 				A8B686B42A303E38008D7FF3 /* ThirdTypeAdapter.h */,
 				A8B686B52A303E38008D7FF3 /* ThirdTypeAdapter.m */,
+				A8E78E332A49967C00E57933 /* TrainingDataAdapter.h */,
+				A8E78E342A49967C00E57933 /* TrainingDataAdapter.m */,
 			);
 			path = Adapters;
 			sourceTree = "<group>";
@@ -296,6 +309,8 @@
 				A8B686C22A308C6B008D7FF3 /* MyFooterTableViewCell.m */,
 				A8B686CA2A31E3A1008D7FF3 /* MyBaseTableViewCell.h */,
 				A8B686CB2A31E3A1008D7FF3 /* MyBaseTableViewCell.m */,
+				A8E78E302A4988BF00E57933 /* TrainingDataTableViewCell.h */,
+				A8E78E312A4988BF00E57933 /* TrainingDataTableViewCell.m */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -431,6 +446,7 @@
 				A8B686CC2A31E3A1008D7FF3 /* MyBaseTableViewCell.m in Sources */,
 				A8B6869B2A2F2B58008D7FF3 /* MyBaseCellsAdapter.m in Sources */,
 				A8B686832A2DD585008D7FF3 /* MyTableViewDataSource.m in Sources */,
+				A8E78E382A49BE8600E57933 /* MyViewController.m in Sources */,
 				A8B686512A2DC282008D7FF3 /* ViewController.m in Sources */,
 				A8B686A22A2F3AF2008D7FF3 /* MyAdapterViewModel.m in Sources */,
 				A8B686C02A308C5B008D7FF3 /* MyHeaderTableViewCell.m in Sources */,
@@ -445,11 +461,13 @@
 				A82C8AC12A409AD9006A42BB /* SecondCardTableViewCell.m in Sources */,
 				A8B686B02A303C73008D7FF3 /* FirstTypeAdapter.m in Sources */,
 				A8B686BD2A308A51008D7FF3 /* FirstTypeTableViewCell.m in Sources */,
+				A8E78E322A4988BF00E57933 /* TrainingDataTableViewCell.m in Sources */,
 				A8B686982A2F2AD5008D7FF3 /* MyTableViewAdapter.m in Sources */,
 				A82C8AC42A409AFC006A42BB /* ThirdCardTableViewCell.m in Sources */,
 				A8B686B62A303E38008D7FF3 /* ThirdTypeAdapter.m in Sources */,
 				A82C8ABA2A407C4E006A42BB /* MyDelegate.m in Sources */,
 				A8B686AD2A2F60CC008D7FF3 /* MyModel.m in Sources */,
+				A8E78E352A49967C00E57933 /* TrainingDataAdapter.m in Sources */,
 				A8B686A92A2F5B1B008D7FF3 /* SecondDemoViewController.m in Sources */,
 				A8B686C32A308C6B008D7FF3 /* MyFooterTableViewCell.m in Sources */,
 				A8B686892A2DE0B2008D7FF3 /* MyRow.m in Sources */,

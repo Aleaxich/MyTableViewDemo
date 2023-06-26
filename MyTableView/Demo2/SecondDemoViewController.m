@@ -6,7 +6,6 @@
 //
 
 #import "SecondDemoViewController.h"
-#import "MyAdapterViewModel.h"
 #import "MyTableViewAdapter.h"
 
 @interface SecondDemoViewController ()
@@ -16,19 +15,47 @@
 @property (nonatomic, strong) MyAdapterViewModel *viewModel;
 
 @property (nonatomic, strong) MyTableViewAdapter *tableViewAdapter;
+/// 页面来源
+@property (nonatomic, assign) SourceType pageSourceType;
 
 @end
 
 @implementation SecondDemoViewController
+
+- (instancetype)initWithSourceType:(SourceType)type {
+    if (self = [super init]) {
+        self.pageSourceType = type;
+    }
+    return self;
+}
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self setupSubview];
 
     // 模拟请求网络数据
-    [self.viewModel featchData];
+    [self featchData];
     [self.tableViewAdapter loadData:self.viewModel.datas withAdapters:self.viewModel.adapters];
     
+}
+
+- (void)featchData {
+    switch (self.pageSourceType) {
+        case SourceTypeOffLine: {
+            [self.viewModel featchDeviceData];
+        }
+            break;
+        case SourceTypeDataCenter: {
+            [self.viewModel featchData];
+        }
+            break;
+        case SourceTypeFinishPage: {
+            [self.viewModel featchDeviceData];
+        }
+        default:
+            break;
+    }
 }
 
 - (void)setupSubview {
@@ -62,7 +89,12 @@
 
 - (MyAdapterViewModel *)viewModel {
     if (!_viewModel) {
-        _viewModel = [[MyAdapterViewModel alloc] init];
+        _viewModel = [[MyAdapterViewModel alloc] initWithType:self.pageSourceType];
+        __weak typeof (self) wSelf = self;
+        _viewModel.uploadSuccess = ^{
+            __strong typeof (wSelf) sSelf = wSelf;
+            [sSelf.tableViewAdapter loadData:sSelf.viewModel.datas withAdapters:sSelf.viewModel.adapters];
+        };
     }
     return _viewModel;
 }

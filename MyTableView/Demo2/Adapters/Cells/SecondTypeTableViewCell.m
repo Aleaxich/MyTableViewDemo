@@ -37,6 +37,12 @@
     [self.contentView addSubview:self.deleteButton];
 }
 
+- (void)buildFinishPageSubviews {
+    self.contentView.backgroundColor = [UIColor blackColor];
+    self.label.textColor = [UIColor whiteColor];
+    self.subTitleLabel.textColor = [UIColor whiteColor];
+}
+
 - (void)close {
     if (self.deleteAction) {
         self.deleteAction();

@@ -20,6 +20,7 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     MyRow *row = self.sections[indexPath.section].createRow();
     UITableViewCell *cell = row.createCell();
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
     return cell;
 }
 

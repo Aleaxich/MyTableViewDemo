@@ -12,7 +12,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface FirstCardTableViewCell : UITableViewCell
 
-@property (nonatomic,copy) void(^clickAction)(void);
 
 - (void)loadData:(MyModel *)model;
 

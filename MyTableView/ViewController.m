@@ -8,6 +8,7 @@
 #import "ViewController.h"
 #import "SecondDemoViewController.h"
 #import "FirstDemoViewController.h"
+#import "MyViewController.h"
 
 
 @interface ViewController ()
@@ -42,7 +43,7 @@
     if (!_demo1Button) {
         _demo1Button = [[UIButton alloc] initWithFrame:CGRectMake((self.view.frame.size.width / 2) - 50, 300, 100, 30)];
         [_demo1Button addTarget:self action:@selector(showDemo1) forControlEvents:UIControlEventTouchUpInside];
-        [_demo1Button setTitle:@"demo1" forState:normal];
+        [_demo1Button setTitle:@"旧方案" forState:normal];
         [_demo1Button setTitleColor:[UIColor blackColor] forState:normal];
     }
     return _demo1Button;
@@ -53,7 +54,7 @@
     if (!_demo2Button) {
         _demo2Button = [[UIButton alloc] initWithFrame:CGRectMake((self.view.frame.size.width / 2) - 50, 500, 100, 30)];
         [_demo2Button addTarget:self action:@selector(showDemo2) forControlEvents:UIControlEventTouchUpInside];
-        [_demo2Button setTitle:@"demo2" forState:normal];
+        [_demo2Button setTitle:@"新方案" forState:normal];
         [_demo2Button setTitleColor:[UIColor blackColor] forState:normal];
     }
     return _demo2Button;
@@ -66,7 +67,7 @@
 
 
 - (void)showDemo2 {
-    SecondDemoViewController *vc = [[SecondDemoViewController alloc] init];
+    MyViewController *vc = [[MyViewController alloc] init];
     [self.navigationController pushViewController:vc animated:YES];
 }
 

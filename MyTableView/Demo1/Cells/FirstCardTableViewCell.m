@@ -42,9 +42,7 @@
 }
 
 - (void)click {
-    if (self.clickAction) {
-        self.clickAction();
-    }
+    NSLog(@"按钮被点击了!!");
 }
 
 @end

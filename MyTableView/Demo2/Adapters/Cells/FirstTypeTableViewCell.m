@@ -33,6 +33,12 @@
     [self.contentView addSubview:self.button];
 }
 
+- (void)buildFinishPageSubviews {
+    self.contentView.backgroundColor = [UIColor blackColor];
+    self.label.textColor = [UIColor whiteColor];
+    [self.button setBackgroundColor:[UIColor blueColor]];
+}
+
 #pragma mark -- <MyCellProtocol>
 
 @synthesize refreshAction = _refreshAction;

@@ -14,8 +14,7 @@
 
 - (void)buildCells {
     NSMutableArray *array = @[].mutableCopy;
-    MyHeaderTableViewCell *header = [[MyHeaderTableViewCell alloc] init];
-    [array addObject:header];
+    [array addObject:[[MyHeaderTableViewCell alloc] init]];
     [array addObject:[[FirstTypeTableViewCell alloc] init]];
     [array addObject:[[MyFooterTableViewCell alloc] init]];
     self.cells = array.copy;

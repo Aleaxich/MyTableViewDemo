@@ -25,6 +25,10 @@
     self.layer.mask= maskLayer;
 }
 
+- (void)buildFinishPageSubviews {
+    self.contentView.backgroundColor = [UIColor blackColor];
+}
+
 
 #pragma mark -- MyCellProtocol
 

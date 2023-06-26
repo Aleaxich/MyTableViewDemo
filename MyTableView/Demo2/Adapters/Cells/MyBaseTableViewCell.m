@@ -20,6 +20,10 @@
     
 }
 
+- (void)buildFinishPageSubviews {
+    
+}
+
 #pragma mark -- <MyCellProtocol>
 
 - (Class)classType {
@@ -27,13 +31,8 @@
 }
 
 - (void)loadData:(MyModel *)model {
-    if ([model.style isEqualToString:@"purple"]) {
-        self.contentView.backgroundColor = [UIColor purpleColor];
-    } else if ([model.style isEqualToString:@"blue"]) {
-        self.contentView.backgroundColor = [UIColor blueColor];
-    } else {
-        self.contentView.backgroundColor = [UIColor whiteColor];
-
+    if ([model.style isEqualToString:@"finishPage"]) {
+        [self buildFinishPageSubviews];
     }
 }
 

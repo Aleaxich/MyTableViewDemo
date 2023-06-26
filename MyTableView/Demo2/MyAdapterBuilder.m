@@ -11,6 +11,7 @@
 #import "FirstTypeAdapter.h"
 #import "SecondTypeAdapter.h"
 #import "ThirdTypeAdapter.h"
+#import "TrainingDataAdapter.h"
 
 @implementation MyAdapterBuilder
 
@@ -32,6 +33,9 @@
             [mutableArray addObject:adapter];
         } else if ([model.type isEqual: @"type3"]) {
             ThirdTypeAdapter *adapter = [[ThirdTypeAdapter alloc] init];
+            [mutableArray addObject:adapter];
+        } else if ([model.type isEqual: @"type4"]) {
+            TrainingDataAdapter *adapter = [[TrainingDataAdapter alloc] init];
             [mutableArray addObject:adapter];
         }
     }

@@ -72,7 +72,7 @@
             return cell;
         };
         row.clickAction = ^{
-            NSLog(@"被点击了");
+            NSLog(@"卡片被点击了");
         };
         return row;
     };
@@ -114,12 +114,6 @@
     };
     return section;
 }
-
-
-
-
-
-
 
 
 

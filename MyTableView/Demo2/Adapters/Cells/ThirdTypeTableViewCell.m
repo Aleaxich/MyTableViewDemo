@@ -28,7 +28,11 @@
     self.pictureView.layer.cornerRadius = 8;
     self.pictureView.layer.masksToBounds = YES;
     [self.contentView addSubview:self.pictureView];
+}
 
+- (void)buildFinishPageSubviews {
+    self.contentView.backgroundColor = [UIColor blackColor];
+    self.label.textColor = [UIColor whiteColor];
 }
 
 #pragma mark -- <MyCellProtocol>

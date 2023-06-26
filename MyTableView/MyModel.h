@@ -18,15 +18,15 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 
 
-@interface TypeOneModel : MyModel
 
+@interface TypeOneModel : MyModel
 
 @property (nonatomic,copy) NSString *title;
 
 @end
 
-@interface TypeTwoModel : MyModel
 
+@interface TypeTwoModel : MyModel
 
 @property (nonatomic,copy) NSString *title;
 
@@ -34,14 +34,31 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
-@interface TypeThreeModel : MyModel
 
+@interface TypeThreeModel : MyModel
 
 @property (nonatomic,copy) NSString *title;
 
 @property (nonatomic,copy) NSString *subTitle;
 
 @property (nonatomic,copy) NSString *imageName;
+
+@end
+
+@interface TypeFourModel : MyModel
+
+@property (nonatomic,assign) NSInteger speed;
+
+@property (nonatomic,assign) NSInteger distance;
+
+@end
+
+
+@interface DeviceDataModel : NSObject
+
+@property (nonatomic,assign) NSInteger speed;
+
+@property (nonatomic,assign) NSInteger distance;
 
 @end
 
