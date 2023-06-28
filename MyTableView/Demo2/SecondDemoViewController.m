@@ -33,8 +33,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self setupSubview];
-
-    // 模拟请求网络数据
     [self featchData];
     [self.tableViewAdapter loadData:self.viewModel.datas withAdapters:self.viewModel.adapters];
     
