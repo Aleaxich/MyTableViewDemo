@@ -9,6 +9,11 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+extern const NSString * _Nonnull CardTypeOne;
+extern const NSString * _Nonnull CardTypeTwo;
+extern const NSString * _Nonnull CardTypeThree;
+extern const NSString * _Nonnull CardTypeFour;
+
 @interface MyModel : NSObject
 
 @property (nonatomic,copy) NSString *type;

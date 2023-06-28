@@ -10,6 +10,8 @@
 #import "MyBaseCellsAdapter.h"
 #import "MyAdapterBuilder.h"
 
+
+
 @interface MyAdapterViewModel()
 
 @property (nonatomic,assign) SourceType type;
@@ -25,6 +27,7 @@
     return self;
 }
 
+// 模拟硬件数据
 - (void)featchDeviceData {
     DeviceDataModel *model = [[DeviceDataModel alloc] init];
     model.speed = 30;
@@ -47,6 +50,7 @@
     return myModel;
 }
 
+// 模拟网络数据
 - (void)featchData {
     NSMutableArray *array = @[].mutableCopy;
     TypeOneModel *modelOne = [[TypeOneModel alloc] init];

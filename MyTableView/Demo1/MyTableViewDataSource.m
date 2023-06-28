@@ -40,11 +40,11 @@
     [self registerCells];
     self.sections = @[].mutableCopy;
     for (MyModel *model in self.datas) {
-        if ([model.type isEqual: @"type1"]) {
+        if ([model.type isEqual: CardTypeOne]) {
             [self.sections addObject:[self createTypeOneSection:model]];
-        } else if ([model.type isEqual: @"type2"]) {
+        } else if ([model.type isEqual: CardTypeTwo]) {
             [self.sections addObject:[self createTypeTwoSection:model]];
-        } else if ([model.type isEqual: @"type3"]) {
+        } else if ([model.type isEqual: CardTypeThree]) {
             [self.sections addObject:[self createTypeThreeSection:model]];
         }
     }

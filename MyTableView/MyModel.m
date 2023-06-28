@@ -7,6 +7,11 @@
 
 #import "MyModel.h"
 
+const NSString *CardTypeOne = @"type1";
+const NSString *CardTypeTwo = @"type2";
+const NSString *CardTypeThree = @"type3";
+const NSString *CardTypeFour = @"type4";
+
 @implementation MyModel
 
 @end
